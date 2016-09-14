@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(51, 168, 255)
+}
+
+main, footer {
+    color: white;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 40%;
+}
