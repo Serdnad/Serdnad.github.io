@@ -14,11 +14,10 @@ h3 {
     height: 10em;
 }
 
-.headerTop h1, h2 {
-}
+.headerTop h1,
+h2 {}
 
-.headerText {
-}
+.headerText {}
 
 .headerSubBar {
     color: white;
@@ -38,7 +37,7 @@ h3 {
 }
 
 .newsboard {
-    padding: 1em;
+    padding: 0.5em;
     padding-right: 2.5%;
 }
 
@@ -62,6 +61,46 @@ h3 {
     color: #0153A5;
     font-size: 1em;
     text-decoration: none;
+}
+
+.newsLinks a {
+    color: #0153A5;
+    text-decoration: none;
+}
+
+.homeBody {
+    padding: 0.5em;
+    padding-left: 1%;
+}
+
+.importantLinks {
+    margin: 0;
+    width: 40%;
+    font-size: 1em;
+}
+
+.importantLinks ul {
+    padding: 0;
+    margin: 0;
+}
+
+.importantLinks li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.distinction {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 20%;
+}
+
+.distinction img {
+    width: 0%;
+    margin: 2.5%;
+    width: 95%;
 }
 
 body {
