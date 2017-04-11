@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'futura';
+    src: local('Futura Bk BT Book'), url('Fonts/Futura Bk BT Book.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerTop {
+    height: 10em;
+}
+
+.headerTop h1, h2 {
+}
+
+.headerText {
+}
+
+.headerSubBar {
+    color: white;
+    text-align: left;
+    vertical-align: top;
+    background-color: darkblue;
+    padding-left: 40px;
+}
+
+.socialMedia {
+    color: white;
+    padding: 0em;
+    padding-left: 0em;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.newsboard {
+    padding: 1em;
+    padding-right: 2.5%;
+}
+
+.newsboard ul {
+    padding: 0;
+    margin: 0;
+    line-height: 0.8em;
+}
+
+.newsboard li {
+    list-style-type: none;
+}
+
+.newsHighlights figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.newsHighlights a {
+    color: #0153A5;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+body {
+    font-family: "futura";
+    background-color: white;
+    margin: 16px
+}
+
+nav {
+    background-color: #0153A5;
+    padding: 16px;
+}
+
+.navButton {
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.footerCampus {
+    float: left;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+.footerCampus a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footerCampus figure {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.footerCampus img {
+    margin: 2.5%;
+    width: 95%;
+    height: 9em;
+}
+
+.footerCampus figcaption {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.footerLegalText {
+    font-size: 10px;
+}
