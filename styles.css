@@ -19,6 +19,41 @@ h2 {}
 
 .headerText {}
 
+nav {
+    background-color: #0153A5;
+    padding: 1em;
+}
+
+.navButtons {
+    text-decoration: none;
+    padding: 0.8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-size: 1.2em;
+}
+
+.navButtons a {
+    padding: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navButtons a:link, a:visited {
+    color: white;
+}
+
+.navButtons a:hover {
+    color: #0153A5;
+    background-color: #FBFBFB;
+}
+
+.navButton {
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
 .headerSubBar {
     color: white;
     text-align: left;
@@ -109,19 +144,6 @@ body {
     margin: 16px
 }
 
-nav {
-    background-color: #0153A5;
-    padding: 16px;
-}
-
-.navButton {
-    text-decoration: none;
-    padding: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    color: white;
-}
-
 footer {
     width: 100%;
     padding: 0;
@@ -177,7 +199,7 @@ only screen and ( -o-min-device-pixel-ratio: 1.25/1),
 only screen and ( min-device-pixel-ratio: 1.25),
 only screen and ( min-resolution: 200dpi),
 only screen and ( min-resolution: 1.25dppx),
-only screen and ( min-width: 500px) {
+only screen and ( max-width: 1024) {
 
     .sides {
         margin-left: 0%;
@@ -191,14 +213,3 @@ only screen and ( min-width: 500px) {
     }
 
 }
-
-.sides {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    body {
-        margin: 0;
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
