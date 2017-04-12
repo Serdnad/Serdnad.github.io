@@ -133,9 +133,10 @@ nav {
 }
 
 .distinction img {
-    width: 0%;
+    display: block;
     margin: 2.5%;
-    width: 95%;
+    max-width: 95%;
+    height: auto;
 }
 
 body {
