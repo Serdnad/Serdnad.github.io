@@ -11,11 +11,11 @@ h3 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 19.2px;
 }
 
 p {
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .headerTop {
@@ -31,7 +31,7 @@ nav {
 .navButtons {
     text-decoration: none;
     padding: 0.8em;
-    font-size: 1.2em;
+    font-size: 19.2px;
 }
 
 .navButtons a {
@@ -40,7 +40,8 @@ nav {
     padding-right: 1em;
 }
 
-.navButtons a:link, a:visited {
+.navButtons a:link,
+a:visited {
     color: white;
 }
 
@@ -66,7 +67,7 @@ nav {
     color: white;
     padding: 0em;
     padding-left: 0em;
-    font-size: 1.3em;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
 }
@@ -94,7 +95,7 @@ nav {
 
 .newsHighlights a {
     color: #0153A5;
-    font-size: 1em;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -110,7 +111,7 @@ nav {
 .importantLinks {
     margin: 0;
     width: 40%;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .importantLinks ul {
@@ -196,32 +197,28 @@ footer {
 }
 
 .footerLegalText p {
-    font-size: 0.625em;
+    font-size: 10px;
 }
 
 .sides {
-        margin-left: 16%;
-        margin-right: 16%;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 1.25),
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
 only screen and ( min--moz-device-pixel-ratio: 1.25),
 only screen and ( -o-min-device-pixel-ratio: 1.25/1),
 only screen and ( min-device-pixel-ratio: 1.25),
 only screen and ( min-resolution: 200dpi),
 only screen and ( min-resolution: 1.25dppx),
 only screen and ( max-width: 1024) {
-
     .sides {
         margin-left: 0%;
         margin-right: 0%;
     }
-
     body {
         margin: 0;
         margin-top: 1em;
         margin-bottom: 1em;
     }
-
 }
