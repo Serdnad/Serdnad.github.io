@@ -28,6 +28,10 @@ p {
     height: 9em;
 }
 
+.headerTop h1 {
+    padding-top: 1em;
+}
+
 nav {
     background-color: #0153A5;
     padding: 1em;
@@ -228,8 +232,12 @@ only screen and ( max-width: 1024) {
     }
 
     .headerTop {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
         height: 5em;
+    }
+
+    .headerTop h1 {
+        padding-top: 0.2em;
     }
 }
