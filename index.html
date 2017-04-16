@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <div class="sides">
-        <header>
+    <header>
+        <div class="sides">
             <div class="headerTop">
                 <a href="#"> <img src="Images/SAS Logo.png" height="148px" style="float:left"></a>
-                <a href="https://www.mdc.edu"> <img src="Images/MDC Logo.png" height="148px" style="float: right;"></a>
+                <a href="https://www.mdc.edu"> <img src="Images/MDC Logo.png" height="148px" style="float: right; margin-right: 16px;"></a>
                 <div>
                     <br> <br>
                     <h1>School for Advanced Studies</h1>
@@ -25,7 +25,9 @@
                 </div>
 
             </div>
-            <nav class="navButtons">
+        </div>
+        <nav class="navButtons">
+            <div class="sides">
                 <a href="index.html" class="navButton">Home</a>
                 <a href="index.html" class="navButton">About</a>
                 <a href="index.html" class="navButton">Admissions</a>
@@ -33,11 +35,12 @@
                 <a href="index.html" class="navButton">Parents</a>
                 <a href="index.html" class="navButton">Guidance Services</a>
                 <a href="index.html" class="navButton">Alumni</a>
-                <a href="index.html" class="navButton">Find Us</a>
+                <!-- This seems unecessary <a href="index.html" class="navButton">Find Us</a> -->
+            </div>
+        </nav>
 
-            </nav>
-
-            <div class="headerSubBar">
+        <div class="headerSubBar">
+            <div class="sides">
                 <h3 style="display: inline">SAS White Tigers</h3>
                 <a class="socialMedia" href="https://twitter.com/SASWhiteTigers"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 <a class="socialMedia" href="https://www.instagram.com/saswhitetigers/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -48,9 +51,9 @@
                 <a class="socialMedia" href="https://www.instagram.com/mdcollege/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <a class="socialMedia" href="http://www.youtube.com/user/MiamiDadeColleges"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
             </div>
-
-        </header>
-
+        </div>
+    </header>
+    <div class="sides">
         <div>
             <div style="width: 75%; display: inline-block">
                 <div class="homeBody">
@@ -63,14 +66,15 @@
                     <div>
                         <h3>What's a dream factory?</h3>
                         <p>
-                            A dream factory is where everything comes together to bring dreams to fruition. That's what the School for Advanced Studies is.
+                            A dream factory is where everything comes together to bring dreams to fruition. That's what the School for Advanced Studies
+                            is.
                             <br><br> The <b>School for Advanced Studies (SAS)</b> is a nationally recognized collegiate high
-                            school of excellence, the combined effort of <b>Miami-Dade County Public Schools (MDCPS)</b> and <b>Miami-Dade
-                            College (MDC)</b> . Students attending SAS complete their last two years of high school while attending
-                            MDC. This opportunity for acceleration and saturated enrichment attracts highly motivated and academically talented
-                            students. SAS prides itself on its family-like environment, small school setting, and focus on
-                            a quality education. School for Advanced Studies provides a uniquely supportive transition between
-                            secondary and post-secondary education.
+                            school of excellence, the combined effort of <b>Miami-Dade County Public Schools (MDCPS)</b>                            and <b>Miami-Dade
+                            College (MDC)</b> . Students attending SAS complete their last two years of high school while
+                            attending MDC. This opportunity for acceleration and saturated enrichment attracts highly motivated
+                            and academically talented students. SAS prides itself on its family-like environment, small school
+                            setting, and focus on a quality education. School for Advanced Studies provides a uniquely supportive
+                            transition between secondary and post-secondary education.
                         </p>
                     </div>
 
@@ -174,12 +178,12 @@
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <footer>
-            <hr>
+    <footer>
+        <div class="sides">
             <div>
-                <h3 style="text-align: center">Our Campuses</h3>
+                <h3 style="text-align: center">Campuses</h3>
                 <div class="footerCampus">
                     <a href="http://www.mdc.edu/north/campus-information/default.aspx">
                         <figure>
@@ -221,20 +225,25 @@
                     </a>
                 </div>
             </div>
+        </div>
+
+        <br>
+        <div class="footerLegalText">
+            <div class="sides">
+                <p>Miami Dade College is accredited by the Southern Association of Colleges and Schools Commission on Colleges
+                    to award associate and baccalaureate degrees. Contact the Commission on Colleges at 1866 Southern Lane,
+                    Decatur, Georgia 30033-4097 or call 404-679-4500 for questions about the accreditation of Miami Dade
+                    College. Miami Dade College is an equal access/equal opportunity institution which does not discriminate
+                    on the basis of sex, race, color, marital status, age, religion, national origin, disability, veteran’s
+                    status, ethnicity, pregnancy, sexual orientation or genetic information. Additional information may be
+                    obtained by contacting the Office of Equal Opportunity Programs/ADA Coordinator/Title IX Coordinator,
+                    at 305.237.2577.</p>
+            </div>
+        </div>
+    </footer>
 
 
-            <hr>
-            <p class="footerLegalText">Miami Dade College is accredited by the Southern Association of Colleges and Schools Commission on Colleges to
-                award associate and baccalaureate degrees. Contact the Commission on Colleges at 1866 Southern Lane, Decatur,
-                Georgia 30033-4097 or call 404-679-4500 for questions about the accreditation of Miami Dade College. Miami
-                Dade College is an equal access/equal opportunity institution which does not discriminate on the basis of
-                sex, race, color, marital status, age, religion, national origin, disability, veteran’s status, ethnicity,
-                pregnancy, sexual orientation or genetic information. Additional information may be obtained by contacting
-                the Office of Equal Opportunity Programs/ADA Coordinator/Title IX Coordinator, at 305.237.2577.
-        </footer>
-
-
-        <!--<script src="js/scripts.js"></script> -->
+    <!--<script src="js/scripts.js"></script> -->
 
 </body>
 

@@ -6,18 +6,22 @@
 h1,
 h2,
 h3 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
 }
 
 .headerTop {
+    padding-top: 1em;
     height: 10em;
 }
-
-.headerTop h1,
-h2 {}
-
-.headerText {}
 
 nav {
     background-color: #0153A5;
@@ -27,8 +31,6 @@ nav {
 .navButtons {
     text-decoration: none;
     padding: 0.8em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
     font-size: 1.2em;
 }
 
@@ -55,18 +57,16 @@ nav {
 }
 
 .headerSubBar {
+    padding-left: 2.1em;
     color: white;
-    text-align: left;
-    vertical-align: top;
-    background-color: darkblue;
-    padding-left: 40px;
+    background-color: #013FA5;
 }
 
 .socialMedia {
     color: white;
     padding: 0em;
     padding-left: 0em;
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: center;
     text-decoration: none;
 }
@@ -105,7 +105,6 @@ nav {
 
 .homeBody {
     padding: 0.5em;
-    padding-left: 1%;
 }
 
 .importantLinks {
@@ -142,12 +141,14 @@ nav {
 body {
     font-family: "futura";
     background-color: #FBFBFB;
-    margin: 16px
+    margin: 0;
 }
 
 footer {
-    width: 100%;
+    background-color: #0153A5;
+    color: white;
     padding: 0;
+    padding-top: 0.5em;
     margin: 0;
     float: right;
 }
@@ -167,6 +168,7 @@ footer {
 
 .footerCampus figure {
     padding: 0;
+    padding-bottom: 0.5em;
     margin: 0;
     width: 100%;
 }
@@ -174,23 +176,32 @@ footer {
 .footerCampus img {
     margin: 2.5%;
     width: 95%;
-    height: 9em;
+    height: 8em;
 }
 
 .footerCampus figcaption {
+    color: white;
     padding: 0;
     margin: 0;
     text-align: center;
-    color: black;
 }
 
 .footerLegalText {
-    font-size: 10px;
+    float: right;
+    padding: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    background-color: #00050A;
+}
+
+.footerLegalText p {
+    font-size: 0.625em;
 }
 
 .sides {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 16%;
+        margin-right: 16%;
 }
 
 @media
