@@ -257,89 +257,88 @@ only screen and ( max-width: 1024) {
 
 /* jssor slider loading skin circles css */
 
-.jssorl-005-circles img {
-    animation-name: jssorl-005-circles;
-    animation-duration: 2.4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
+        .jssorl-005-circles img {
+            animation-name: jssorl-005-circles;
+            animation-duration: 2.4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
 
-@keyframes jssorl-005-circles {
-    from {
-        transform: rotate(0deg);
-    }
+        @keyframes jssorl-005-circles {
+            from {
+                transform: rotate(0deg);
+            }
 
-    to {
-        transform: rotate(360deg);
-    }
-}
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
 
-/* jssor slider bullet navigator skin 10 css */
-/*
-.jssorb10 div           (normal)
-.jssorb10 div:hover     (normal mouseover)
-.jssorb10 .av           (active)
-.jssorb10 .av:hover     (active mouseover)
-.jssorb10 .dn           (mousedown)
-*/
-.jssorb10 {
-    position: absolute;
-}
-.jssorb10 div, .jssorb10 div:hover, .jssorb10 .av {
-    position: absolute;
-    /* size of bullet elment */
-    width: 11px;
-    height: 11px;
-    background: url("Images/Index Slides/b10.png") no-repeat;
-    overflow: hidden;
-    cursor: pointer;
-}
-.jssorb10 div { background-position: -10px -10px; }
-.jssorb10 div:hover, .jssorb10 .av:hover { background-position: -40px -10px; }
-.jssorb10 .av { background-position: -70px -10px; }
-.jssorb10 .dn, .jssorb10 .dn:hover { background-position: -100px -10px; }
+        /* jssor slider bullet navigator skin 10 css */
+        /*
+        .jssorb10 div           (normal)
+        .jssorb10 div:hover     (normal mouseover)
+        .jssorb10 .av           (active)
+        .jssorb10 .av:hover     (active mouseover)
+        .jssorb10 .dn           (mousedown)
+        */
+        .jssorb10 {
+            position: absolute;
+        }
+        .jssorb10 div, .jssorb10 div:hover, .jssorb10 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 11px;
+            height: 11px;
+            background: url('Images/Index Slides/b10.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb10 div { background-position: -10px -10px; }
+        .jssorb10 div:hover, .jssorb10 .av:hover { background-position: -40px -10px; }
+        .jssorb10 .av { background-position: -70px -10px; }
+        .jssorb10 .dn, .jssorb10 .dn:hover { background-position: -100px -10px; }
 
-/* jssor slider arrow navigator skin 21 css */
-/*
-.jssora21l                  (normal)
-.jssora21r                  (normal)
-.jssora21l:hover            (normal mouseover)
-.jssora21r:hover            (normal mouseover)
-.jssora21l.jssora21ldn      (mousedown)
-.jssora21r.jssora21rdn      (mousedown)
-.jssora21l.jssora21lds      (disabled)
-.jssora21r.jssora21rds      (disabled)
-*/
-.jssora21l, .jssora21r {
-    display: block;
-    position: absolute;
-    /* size of arrow element */
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-    background: url('Images/Index Slides/a21.png') center center no-repeat;
-    overflow: hidden;
-}
-.jssora21l { background-position: -3px -33px; }
-.jssora21r { background-position: -63px -33px; }
-.jssora21l:hover { background-position: -123px -33px; }
-.jssora21r:hover { background-position: -183px -33px; }
-.jssora21l.jssora21ldn { background-position: -243px -33px; }
-.jssora21r.jssora21rdn { background-position: -303px -33px; }
-.jssora21l.jssora21lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
-.jssora21r.jssora21rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
-
+        /* jssor slider arrow navigator skin 21 css */
+        /*
+        .jssora21l                  (normal)
+        .jssora21r                  (normal)
+        .jssora21l:hover            (normal mouseover)
+        .jssora21r:hover            (normal mouseover)
+        .jssora21l.jssora21ldn      (mousedown)
+        .jssora21r.jssora21rdn      (mousedown)
+        .jssora21l.jssora21lds      (disabled)
+        .jssora21r.jssora21rds      (disabled)
+        */
+        .jssora21l, .jssora21r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('Images/Index Slides/a21.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora21l { background-position: -3px -33px; }
+        .jssora21r { background-position: -63px -33px; }
+        .jssora21l:hover { background-position: -123px -33px; }
+        .jssora21r:hover { background-position: -183px -33px; }
+        .jssora21l.jssora21ldn { background-position: -243px -33px; }
+        .jssora21r.jssora21rdn { background-position: -303px -33px; }
+        .jssora21l.jssora21lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora21r.jssora21rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
 .slideShowCaption {
     position:absolute;
     top:10px;
     left:10px;
-    width:97%;
-    height:50px;
+    width:1004px;
+    height:60px;
     z-index:0;
     background-color:rgba(1,83,165,0.75);
-    font-size: 1em;
+    font-size: 1.5em;
     color:white;
-    line-height:25px;
+    line-height:30px;
     text-align:center; overflow:auto;
 }
