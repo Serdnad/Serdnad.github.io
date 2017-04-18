@@ -10,6 +10,11 @@
     <!-- This seems to be the right track to fixing the font problem, but I haven't gotten it yet
     <meta name="viewport" content="width=1024, initial-scale=1"> -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="Javascript/jquery-scrolltofixed.js"></script>
+    <script src="Javascript/jssor.slider-23.1.1.mini.js" type="text/javascript"></script>
+    <script src="functions.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -62,7 +67,64 @@
                 <h3>Welcome to The Dream Factory</h3>
                 <hr>
 
-                <img src="Images/Media/MDC West Campus 2.jpg" width="100%">
+                <!-- Slide Show -->
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+                    <!-- Loading Screen -->
+                    <div data-u="loading" class="jssorl-005-circles" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+                        <img style="margin-top:-25.0px;position:relative;top:50%;width:50px;height:50px;" src="Images/Index Slides/circles.svg" />
+                    </div>
+                    <!-- Slide Show Images -->
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/002.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="0">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/003.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="1">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/004.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="2">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/005.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="3">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/006.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="4">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/007.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="5">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div>
+                            <img data-u="image" src="Images/Index Slides/008.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="6">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div data-b="0">
+                            <img data-u="image" src="Images/Index Slides/009.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="7">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div data-p="112.50">
+                            <img data-u="image" src="Images/Index Slides/010.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="8">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                        <div data-p="112.50">
+                            <img data-u="image" src="Images/Index Slides/011.jpg" />
+                            <div class="slideShowCaption" data-u="caption" data-t="9">SAS is proud to welcome MDC West to the family! MDC West is the fifth campus to offer the amazing SAS program.</div>
+                        </div>
+                    </div>
+                    <!-- Bullet Navigator -->
+                    <div data-u="navigator" class="jssorb10" style="bottom:16px;right:16px;" data-autocenter="1">
+                        <div data-u="prototype" style="width:12px;height:12px;"></div>
+                    </div>
+                    <!-- Arrow Navigator -->
+                    <span data-u="arrowleft" class="jssora21l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+                    <span data-u="arrowright" class="jssora21r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+                </div>
+
 
                 <hr>
                 <div>
@@ -73,11 +135,11 @@
                         <br><br> The <b>School for Advanced Studies (SAS)</b> is a nationally recognized collegiate high
                         school of excellence, the combined effort of <b>Miami-Dade County Public Schools (MDCPS)</b> and
                         <b>Miami-Dade
-                            College (MDC)</b> . Students attending SAS complete their last two years of high school while
-                        attending MDC. This opportunity for acceleration and saturated enrichment attracts highly motivated
-                        and academically talented students. SAS prides itself on its family-like environment, small school
-                        setting, and focus on a quality education. School for Advanced Studies provides a uniquely supportive
-                        transition between secondary and post-secondary education.
+                            College (MDC)</b> . Students attending SAS complete their last two years
+                        of high school while attending MDC. This opportunity for acceleration and saturated enrichment attracts
+                        highly motivated and academically talented students. SAS prides itself on its family-like environment,
+                        small school setting, and focus on a quality education. School for Advanced Studies provides a uniquely
+                        supportive transition between secondary and post-secondary education.
                     </p>
                 </div>
 
